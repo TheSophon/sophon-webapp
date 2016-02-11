@@ -80,7 +80,20 @@ class ServerStatusIndex extends React.Component {
                  open={this.state.dialogOpen}
                  onRequestClose={this._handleDialogClose}
                 >
-                    // fill in the blank here
+                <TextField
+                 hintText="Hostname"
+                 floatingLabelText="Hostname"
+                /><br/>
+                <TextField
+                 hintText="IP Address"
+                 floatingLabelText="IP Address"
+                /><br/>
+                <TextField
+                 hintText="SSH Secret Key"
+                 floatingLabelText="SSH Secret Key"
+                 multiLine={true}
+                 rows={5}
+                />
                 </Dialog>
             </div>
         )
