@@ -10,7 +10,7 @@ Installation
 
 You could use the project [ansible-role-sophon](https://github.com/TheSophon/ansible-role-sophon) to deploy the whole project with front-end project automatically.
 
-Or you could install stand-alone Sophon by following steps:
+Or you could install stand-alone Sophon-WebApp by following steps:
 
 1. Install Node.js by following offical guide.
 
